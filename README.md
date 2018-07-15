@@ -24,3 +24,11 @@ Or hex values as argument
 $ hex2ascii 68 65 6c 6c 6f
 hello
 ```
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2018 Scott Barr
+
+See [LICENSE.md](LICENSE.md)
