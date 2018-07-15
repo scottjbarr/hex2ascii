@@ -18,7 +18,7 @@ $ echo 68 65 6c 6c 6f | hex2ascii
 hello
 ```
 
-Or hex value as argument
+Or hex values as argument
 
 ```
 $ hex2ascii 68 65 6c 6c 6f
