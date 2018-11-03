@@ -14,6 +14,9 @@ func main() {
 	if len(os.Args) > 1 {
 		// get the supplied args
 		for _, s := range os.Args[1:] {
+			if len(s) < 2 {
+				s = fmt.Sprintf("%02v", s)
+			}
 			data += s
 		}
 
