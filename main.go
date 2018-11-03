@@ -31,6 +31,8 @@ func main() {
 	}
 
 	data = strings.Replace(data, " ", "", -1)
+	data = strings.Replace(data, ",", "", -1)
+	data = strings.Replace(data, "0x", "", -1)
 
 	// decode the hex to bytes
 	b, err := hex.DecodeString(data)
